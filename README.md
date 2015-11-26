@@ -44,7 +44,7 @@ With our library you need not bother about mentioning the appropriate HTTP metho
 
 ## Source Module or Library
 This java OpenAPI client that we expose could be integrated inside you application in two ways. You can choose the solution that suit you:
-1. You can either take the entire source code module (which is a maven module) and integrate it inside your codebase 
+1. You can either take the entire source code module (which is a maven module) and integrate it inside your codebase.
 2. You can take only the already built library (inside the lib folder) and put it inside your classpath to invoke the required client API.
 
 ## Usage
