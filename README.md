@@ -42,6 +42,11 @@ The following are the client handles that we have exposed for our REST services.
 
 With our library you need not bother about mentioning the appropriate HTTP method. We have designed our client library in such a way to decide itself the right HTTP method and perform invocation on your behalf.
 
+## Source Module or Library
+This java OpenAPI client that we expose could be integrated inside you application in two ways. You can choose the solution that suit you:
+1. You can either take the entire source code module (which is a maven module) and integrate it inside your codebase 
+2. You can take only the already built library (inside the lib folder) and put it inside your classpath to invoke the required client API.
+
 ## Usage
 Invoking our client library (there-by invoking the actual REST) is quite simple and straightforward. Let's take an example of `getBalance` API inside `Banking`. All you need to do to invoke this service from our client library is
 ```java
